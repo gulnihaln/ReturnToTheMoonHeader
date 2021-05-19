@@ -1,0 +1,71 @@
+/* BASE STYLES ----------------------- */
+body {
+  background-color: #ffffff;
+  color: #3a3a3a;
+  font-family: Gill Sans, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  margin: 0;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 22px;
+  margin-top: 60px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: normal;
+  margin-top: 60px;
+}
+
+h4 {
+  color: #002052;
+  font-size: 15px;
+  font-weight: normal;
+  margin: 0 0 10px 0;
+}
+
+p {
+  color: #6f6f6f;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 29px;
+  margin: 8px 0;
+}
+
+a { color: #002052; }
+
+/* HEADER STYLES ----------------------- */
+.header {
+  background-color: #202020;
+  background-image: url('https://cdn.filestackcontent.com/RBhOS6DoRoabKXwa8tC8');
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 20px;
+  text-align: center;
+}
+
+.header .logo {
+  margin-bottom: 30px;
+}
+
+.header nav a {
+  border-bottom: 2px solid #BE1E2D;
+  color: #ffffff;
+  margin: 0 8px;
+  padding: 5px 8px;
+  text-decoration: none;
+}
+
+.header nav a:hover {
+  background: #BE1E2D;
+}
+
+.header nav a.active {
+  background: #ffffff;
+  color: #BE1E2D;
+}
